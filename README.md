@@ -1,14 +1,21 @@
 # 🤖 Crypto Alert Bot
 
-A Telegram bot for tracking cryptocurrency prices and managing a personal portfolio.
+A Telegram bot for tracking cryptocurrency prices, managing a personal portfolio, and setting price alerts. Supports 🇷🇺 Russian and 🇬🇧 English.
 
 ## Features
 
-- 💰 Real-time price for any coin
+- 💰 Real-time price for 24+ coins via inline buttons
 - 🚨 Price alerts — get notified when target price is reached
-- 📊 Top 10 coins by market cap
-- 📈 7-day price chart
-- 💼 Personal portfolio tracker
+- 📊 Top 10 coins by market cap with 24h change
+- 📈 7-day price chart as an image
+- 💼 Personal portfolio tracker with live total value
+- 🌐 Language selection (Russian / English)
+
+## How It Works
+
+1. Start the bot with `/start`
+2. Choose your language 🇷🇺 / 🇬🇧
+3. Use the menu buttons — no commands needed
 
 ## Commands
 
@@ -26,13 +33,4 @@ A Telegram bot for tracking cryptocurrency prices and managing a personal portfo
 ## Setup
 
 1. Clone the repository
-2. Install dependencies: `pip install pytelegrambotapi requests matplotlib`
-3. Add your bot token: replace `YOUR_BOT_TOKEN_HERE` in `Bot.py`
-4. Run: `python Bot.py`
-
-## Built With
-
-- Python
-- pyTelegramBotAPI
-- CoinGecko API
-- Matplotlib
+2. Install dependencies:
